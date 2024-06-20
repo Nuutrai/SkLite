@@ -1,3 +1,2 @@
-static.txt
 index.html
 styles.css
