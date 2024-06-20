@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Trebuchet';
+    src: url(https://nuutrai.github.io/fonts/trebuchet.ttf);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(#2c67af,#32bad9);
+    background-repeat: no-repeat;
+    /* background-color: #32bad9; */
+}
+
+.header {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1vw;  
+    padding-right: 1vw;
+    background-color: #353535;
+    border-radius: 0.5vw;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#headercontent {
+	width: 100%;
+	height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bodycontent {
+	width: 100%;
+    height: 80vh;
+    display: flex;
+
+}
+
+#headerlogo {
+    height: 3vh;   
+    margin-right: 1vw; 
+}
+
+#logoandname {
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet';
+    color: white;
+    cursor: pointer;
+    font-size: 70%;
+}
+
+/* #logoandname:hover {
+    text-decoration: underline;
+} */
+
+#links {
+    display: flex;
+    align-items: center;
+}
+
+#links>a {
+    margin-right: 2vw;
+    font-family: 'Trebuchet';
+    text-decoration: none;
+}
+
+#links>a>h1 {
+    color: white;
+    transition: color 0.25s;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+#links>a>h1:hover {
+   color: #32bad9;
+    /* color: #2c67af; */
+}
+
+#links>a:last-child {
+    margin: 0;
+}
